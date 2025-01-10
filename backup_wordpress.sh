@@ -4,7 +4,7 @@ set -e
 
 # Carrega variáveis do .env
 set -a
-source .env
+source /home/ubuntu/s3-wordpress-backup-restore/.env
 set +a
 
 BACKUP_DIR="/opt/backups"

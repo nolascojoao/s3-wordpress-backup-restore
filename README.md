@@ -78,7 +78,7 @@ docker ps
 - **Fork** do repositório.
 
 
-- **Instância EC2** com Ubuntu ou Debian, com permissão de acesso 0.0.0.0 na porta 22 para SSH e na porta 80 para HTTP.
+- **Instância EC2** com Ubuntu e permissão de acesso 0.0.0.0 na porta 22 para SSH e na porta 80 para HTTP.
 > ⚠️ Use 0.0.0.0 apenas para ambientes de estudo e testes e evite deixar as portas expostas por longos períodos.
 
 

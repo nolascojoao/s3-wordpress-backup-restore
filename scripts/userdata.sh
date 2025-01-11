@@ -21,11 +21,11 @@ else
   exit 1
 fi
 
+# Atualizar e instalar o Docker
 sudo apt update
 sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
 # Adicionar o usuário ao grupo docker
-# Mude para o nome de usuário adequado, por exemplo, 'admin' ou 'ubuntu'
 sudo usermod -aG docker admin
 
 # --------------------

@@ -133,6 +133,9 @@ docker ps
 - **AWS CLI** deve estar instalada e configurada com credenciais que tenham permissão de acesso ao seu bucket S3.
 
 
+#### Passos:
+
+
 1. Insira a URL do seu bucket S3 no arquivo `backup_wordpress.sh`:
 ```bash
 S3_BUCKET="joaonolasco-wp-backup"
@@ -175,6 +178,9 @@ sudo ./backup_wordpress.sh
 - **AWS CLI** deve estar instalada e configurada com credenciais que tenham permissão de acesso ao seu bucket S3.
 
 
+#### Passos:
+
+
 1. Edite a URL do bucket S3 no arquivo `restore_wordpress.sh`:
 ```bash
 S3_BUCKET="joaonolasco-wp-backup"
@@ -213,6 +219,9 @@ sudo ./restore_wordpress.sh
 
 
 > Você pode automatizar a execução do backup configurando um CronJob no seu sistema
+
+
+#### Passos:
 
 
 1. Edite o crontab com o comando:

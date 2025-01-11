@@ -32,4 +32,4 @@ jobs:
           script: |
             bash ~/s3-wordpress-backup-restore/scripts/userdata.sh
             cd ~/s3-wordpress-backup-restore
-            docker compose up -d
+            sudo docker compose up -d
